@@ -8,7 +8,7 @@ public class AwsController {
    @GetMapping("/getMessage")
     public String getMessage()
    {
-        return " Hi this is my first web application deployed in aws";
+        return " Hi this is my first web application deployed in aws ! Thanks";
     }
    
     @GetMapping("/getDetails")
