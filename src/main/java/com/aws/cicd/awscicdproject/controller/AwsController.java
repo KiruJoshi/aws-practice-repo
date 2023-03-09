@@ -6,12 +6,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AwsController {
    @GetMapping("/getMessage")
-    public String getMessage(){
+    public String getMessage()
+   {
         return " Hi this is my first web application deployed in aws";
     }
    
     @GetMapping("/getDetails")
-    public String getMessage(){
+    public String getMessageNew(){
         return " Good afterNoon from Kiran";
     }
 }
